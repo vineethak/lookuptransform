@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target transform_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/transform_node.dir/src/transform_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable transform_node[0m
+[100%] Built target transform_node
+-- Install configuration: ""
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/lib/lidar_camera_transform/transform_node
+-- Set runtime path of "/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/lib/lidar_camera_transform/transform_node" to ""
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/ament_index/resource_index/package_run_dependencies/lidar_camera_transform
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/ament_index/resource_index/parent_prefix_path/lidar_camera_transform
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/environment/ament_prefix_path.sh
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/environment/ament_prefix_path.dsv
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/environment/path.sh
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/environment/path.dsv
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/local_setup.bash
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/local_setup.sh
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/local_setup.zsh
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/local_setup.dsv
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/package.dsv
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/ament_index/resource_index/packages/lidar_camera_transform
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/cmake/lidar_camera_transformConfig.cmake
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/cmake/lidar_camera_transformConfig-version.cmake
+-- Installing: /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/package.xml

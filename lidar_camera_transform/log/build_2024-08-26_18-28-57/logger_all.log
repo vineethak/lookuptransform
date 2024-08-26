@@ -1,0 +1,103 @@
+[0.095s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'lidar_camera_transform']
+[0.095s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['lidar_camera_transform'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d931575c820>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d931575c3d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d931575c3d0>>)
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.247s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'lidar_camera_transform'
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_transform' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_transform' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_transform' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_transform' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_transform' build argument 'cmake_clean_first' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_transform' build argument 'cmake_force_configure' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_transform' build argument 'ament_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_transform' build argument 'catkin_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'lidar_camera_transform' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_camera_transform' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/build/lidar_camera_transform', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform', 'merge_install': False, 'path': '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform', 'symlink_install': False, 'test_result_base': None}
+[0.326s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.327s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.327s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform' with build type 'ament_cmake'
+[0.327s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform'
+[0.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/build/lidar_camera_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/build/lidar_camera_transform -- -j12 -l12
+[3.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/build/lidar_camera_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/build/lidar_camera_transform -- -j12 -l12
+[3.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/build/lidar_camera_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/build/lidar_camera_transform
+[3.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_camera_transform)
+[3.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/build/lidar_camera_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dheeraj/Documents/lookuptransform/lidar_camera_transform/build/lidar_camera_transform
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform' for CMake module files
+[3.662s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform' for CMake config files
+[3.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_camera_transform', 'cmake_prefix_path')
+[3.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/hook/cmake_prefix_path.ps1'
+[3.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/hook/cmake_prefix_path.dsv'
+[3.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/hook/cmake_prefix_path.sh'
+[3.664s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/lib'
+[3.664s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/bin'
+[3.665s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/lib/pkgconfig/lidar_camera_transform.pc'
+[3.665s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/lib/python3.10/site-packages'
+[3.665s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/bin'
+[3.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/package.ps1'
+[3.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/package.dsv'
+[3.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/package.sh'
+[3.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/package.bash'
+[3.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/package.zsh'
+[3.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/colcon-core/packages/lidar_camera_transform)
+[3.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_camera_transform)
+[3.695s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform' for CMake module files
+[3.695s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform' for CMake config files
+[3.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_camera_transform', 'cmake_prefix_path')
+[3.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/hook/cmake_prefix_path.ps1'
+[3.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/hook/cmake_prefix_path.dsv'
+[3.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/hook/cmake_prefix_path.sh'
+[3.697s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/lib'
+[3.697s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/bin'
+[3.697s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/lib/pkgconfig/lidar_camera_transform.pc'
+[3.698s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/lib/python3.10/site-packages'
+[3.698s] Level 1:colcon.colcon_core.environment:checking '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/bin'
+[3.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/package.ps1'
+[3.699s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/package.dsv'
+[3.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/package.sh'
+[3.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/package.bash'
+[3.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/lidar_camera_transform/package.zsh'
+[3.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/lidar_camera_transform/share/colcon-core/packages/lidar_camera_transform)
+[3.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.701s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.705s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.706s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.706s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.715s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.715s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/local_setup.ps1'
+[3.716s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/_local_setup_util_ps1.py'
+[3.717s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/setup.ps1'
+[3.718s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/local_setup.sh'
+[3.718s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/_local_setup_util_sh.py'
+[3.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/setup.sh'
+[3.720s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/local_setup.bash'
+[3.720s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/setup.bash'
+[3.721s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/local_setup.zsh'
+[3.721s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dheeraj/Documents/lookuptransform/lidar_camera_transform/install/setup.zsh'
